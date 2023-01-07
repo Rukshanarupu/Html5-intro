@@ -1,0 +1,30 @@
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+    background-color: lightgray;
+}
+
+/*Nasted manu*/
+nav li .dropdown{
+    display: none;
+
+}
+nav li:hover > .dropdown{
+    display: block;
+    position: absolute;
+    background-color: lightyellow;
+    padding-left: 0;
+    padding-left: 10px;
+}

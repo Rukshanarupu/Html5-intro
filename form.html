@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha ghor website</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        fieldset{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to my pitha ghor</h2>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <label for="name">Your name
+            <input id="name" type="text">
+        </label>
+        <label for="email">Your email
+            <input id="email" type="email">
+        </label>
+        <label for="phone">Your phone
+            <input id="phone" type="number">
+        </label>
+        <fieldset>
+            <legend>pick one pitha</legend>
+            <label for="chitoi">
+                <input type="radio" name="pitha" value="chitoi">
+                chitoi
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" value="vapa">
+                vapa
+            </label>
+            <label for="jhal pitha">
+                <input type="radio" name="pitha" value="jhal pitha">
+                jhal pitha
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>pick one or more vorta</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">
+                sorisa
+            </label>
+            <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki">
+                sutki
+            </label>
+            <label for="morich">
+                <input type="checkbox" name="vorta" id="morich">
+                morich
+            </label>
+            <label for="dal">
+                <input type="checkbox" name="vorta" id="dal">
+                dal
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special intruction for you</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
